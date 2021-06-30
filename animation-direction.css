@@ -1,0 +1,28 @@
+body{
+    background: url(wallpaperflare.com_wallpaper\ \(19\).jpg);
+}
+
+@keyframes move {
+   from {background: cornsilk; transform: translateX(0);}
+   to {backgornd:marron;transform: translateX(300px); }
+   }
+div {
+    animation:move 15s alternate;
+    animation-direction: normal;
+    width: 470px;
+    
+}
+h1{
+    text-align: center;
+    text-shadow: 2px 3px 4px ;
+    color: aqua;
+
+}
+h2{
+    text-align: center;
+    color: black;
+    text-shadow: 4px 3px 7px #c0c0c0;
+}
+li{
+    color: chartreuse;
+}
